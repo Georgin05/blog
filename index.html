@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join StoryTrails</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="auth-container">
+
+    <div class="form-section">
+        <div class="brand-logo">
+            <i class="fas fa-mountain"></i> StoryTrails
+        </div>
+
+        <div class="header">
+            <h1>Start Your Adventure</h1>
+            <p>Create an account to document your journeys.</p>
+        </div>
+
+        <form action="registration.php" method="POST">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="e.g. MountainHiker" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Create a strong password" required>
+            </div>
+
+            <button type="submit" class="btn-primary">Create Account</button>
+
+            <button type="button" class="btn-google">
+                <i class="fab fa-google"></i> Sign up with Google
+            </button>
+        </form>
+
+        <p class="footer-text">
+            Already have an account? <a href="login.php">Log in</a>
+        </p>
+    </div>
+
+    <div class="visual-section">
+        <div class="visual-content">
+            <div style="font-size: 60px; margin-bottom: 20px; opacity: 0.8;">
+                ✈️ 🌍 📸
+            </div>
+            <div class="visual-quote">
+                "The world is a book and those who do not travel read only one page."
+            </div>
+            <div class="visual-author">— Saint Augustine</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
